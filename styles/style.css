@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+}
+
+
+
+.main{
+    padding: 10%;
+    background-image: url("https://www.vancouverwebsitedesign.ca/wp-content/uploads/blog-posts-colors-1.jpg");
+    width: 75%;
+}
+
+.resume{ 
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+    50% {border-radius: 50px;
+;
+    }
+
+  }
+
+.fasel{
+    background-color: black;
+    width: 1%;
+}
+
+.name{
+    padding-bottom: 50%;
+}
+
+.box{
+    margin: 5%;
+    padding: 5%;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.side{ 
+    padding: 3%;
+    background-color: gold;
+    width: 24%;
+    text-align: center;
+}
+
+
+
+.skillImg{
+    width: 75px;
+    height: 75px;
+}
+
+.acc{
+    display: flex;
+    background-color: darkblue;
+    width: 99.3%;
+    padding: 5px;
+}
+
+.footerImg{
+    width: 50px;
+    height: 50px;
+    margin: 17%;
+    margin-right: 5%; 
+}
+
+.footerHeader{
+    margin-right: 30%;
+}
+
