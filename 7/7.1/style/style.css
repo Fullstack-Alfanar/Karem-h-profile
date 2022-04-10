@@ -1,0 +1,73 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  width: 100px;
+  height: 200px;
+  background-color: gold;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.image {
+  border-radius: 15px;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+}
+
+.image:hover {
+  width: 105px;
+  height: 105px;
+}
+
+.info {
+  font-family: 'Redressed', cursive;
+  text-align: center;
+}
+
+.btn {
+  position: absolute;
+  right: 35%;
+  bottom: 5%;
+}
+
+.btnR {
+  background-color: black;
+  color: white;
+  font-family: 'Redressed', cursive;
+  border-radius: 15px;
+  border: 1px gray;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.btnR:hover {
+  background-color: gray;
+}
+/*# sourceMappingURL=style.css.map */

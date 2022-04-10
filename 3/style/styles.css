@@ -1,0 +1,16 @@
+body{
+    background-color: gold;
+}
+
+.myTitle{
+    color: burlywood;
+    background-color: mediumblue;
+}
+
+a{
+    color: black;
+}
+.logo{
+    width: 400px;
+    height: 200px;
+}

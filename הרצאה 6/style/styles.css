@@ -1,0 +1,25 @@
+body
+{
+    display: flex;
+}
+p{
+    animation-name: news;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    padding: 10px;
+    
+}
+@keyframes news{
+    0%{
+        margin-left: 100%;
+        
+    }
+    50%{
+        font-size: 48px;
+        color: red;
+    }
+    100%{
+        margin-left: 0%;
+    }
+}

@@ -1,0 +1,33 @@
+.detail{
+    display: flex;
+    margin: 30px;
+    
+}
+
+.textBox{
+    
+    border-radius: 10px;
+    background-color: rgb(238, 228, 228);
+    border: none;
+    padding: 7px;
+    
+    
+    
+}
+
+.btn{
+    background-color: rgb(255, 77, 77);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 20px 10px 20px;
+}
+
+.tofes{
+    text-align: center;
+}
+
+.pad{
+    padding-left: 120px;
+    
+}

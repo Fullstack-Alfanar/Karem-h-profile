@@ -1,0 +1,20 @@
+.container{
+    text-align: center;
+}
+
+.textBox{
+    margin: 20px;
+    
+}
+
+.google_search{
+    border-radius: 5px;
+
+}
+
+.bnt{
+    margin: 20px;
+    border: none;
+    padding: 10px;
+    
+}

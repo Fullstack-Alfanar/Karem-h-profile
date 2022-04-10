@@ -1,0 +1,62 @@
+$card-color:gold;
+$radius:15px;
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 100px;
+    height: 200px;
+    background-color: $card-color;
+    border-radius: $radius;
+    padding: 10px;
+}
+
+.image{
+    border-radius: $radius;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+
+}
+
+.image:hover{
+    width: 105px;
+    height: 105px;
+}
+
+.info{
+    font-family: 'Redressed', cursive;
+    text-align: center;
+}
+
+.btn{
+    position:absolute;
+    right:35%;
+    bottom: 5%;
+}
+
+.btnR{
+    background-color: black;
+    color: white;
+    font-family: 'Redressed', cursive;
+    border-radius: 15px;
+    border: 1px gray;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.btnR:hover{
+    background-color: gray;
+}
